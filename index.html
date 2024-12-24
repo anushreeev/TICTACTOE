@@ -3,38 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TIC TAC TOE</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-   
 </head>
 <body>
+    <div id="gamecontainer">
+        <h1>TIC TAC TOE</h1>
+        <div id="cellcontainer">
+           <div cellindex="0" class="cell"></div>
+           <div cellindex="1" class="cell"></div>
+           <div cellindex="2" class="cell"></div>
+           <div cellindex="3" class="cell"></div>
+           <div cellindex="4" class="cell"></div>
+           <div cellindex="5" class="cell"></div>
+           <div cellindex="6" class="cell"></div>
+           <div cellindex="7" class="cell"></div>
+           <div cellindex="8" class="cell"></div>
+        </div>
 
-  <div class="msg hide">
-    <p id="msg2">winner</p>
-    
-    <button id="new_btn">New Game</button>
-  </div>
-
-
-    <main>
-    <h1>TIC TAC TOE </h1>
-    <div class="container">
-    <div class="game">
-        <button class="box"></button>
-          <button class="box"></button>
-            <button class="box"></button>
-              <button class="box"></button>
-                <button class="box"></button>
-                  <button class="box"></button>
-                    <button class="box"></button>
-                      <button class="box"></button>
-                        <button class="box"></button>
+        <h2 id="status">X's turn</h2>
+        <button id="restartbtn"><h3>Restart Game</h3> </button>
     </div>
-</div>
 
-<button id="reset_btn">RESET GAME</button>
-    </main> 
-    <script src="app.js"></script>
 
+
+    <script src="game.js"></script>
 </body>
 </html>
